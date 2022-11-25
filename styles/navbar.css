@@ -4,9 +4,23 @@ body{
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     background: #FFF9F1;
-
+    overflow: hidden;
 }
 .nav-bar{
+    height: 250px;
+}
+.navbar-ellipse{
+    
+    position: absolute;
+    width: 980px;
+    height: 137px;
+    left: 80px;
+    top: 60px;
+    transform: scale(1.6) rotate(-1deg);
+    z-index: -1;
+    overflow: hidden;
+}
+.nav-bar-top{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -57,7 +71,13 @@ body{
     margin-right: 30px;
     margin-top: 20px;
     color: white;
+    cursor: pointer;
 }
-h2{
+.login-button:hover{
+    background-color: #FFF9F1;
+    color: #D68A44;
+    border: 1px solid #D68A44;
+}
+.nav-bar-top h2{
     padding-left: 30px;
 }
