@@ -81,3 +81,34 @@ body{
 .nav-bar-top h2{
     padding-left: 30px;
 }
+
+.intro-head{
+    position: absolute;
+    width: 645px;
+    height: 50px;
+    left: 595px;
+    top: 198px;
+
+    font-family: 'Sedan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 55px;
+
+    color: #642F0A;
+}
+.intro-para{
+    position: absolute;
+    width: 530px;
+    height: 70px;
+    left: 600px;
+    top: 270px;
+
+    font-family: 'Sedan';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 2px;
+    color: #642F0A;
+}
