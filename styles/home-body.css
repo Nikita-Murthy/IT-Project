@@ -1,0 +1,31 @@
+.intro{
+    padding-left: 580px;
+}
+
+.intro-head{
+    
+    font-family: 'Sedan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 55px;
+
+    color: #642F0A;
+}
+.intro-para{
+
+    font-family: 'Sedan';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 2px;
+    color: #642F0A;
+}
+.program-grid{
+    margin-top: 80px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
