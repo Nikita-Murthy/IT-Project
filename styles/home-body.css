@@ -1,7 +1,12 @@
 .intro{
-    padding-left: 580px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
-
+.intro-img{
+    width: 420px;
+}
 .intro-head{
     
     font-family: 'Sedan';
@@ -9,7 +14,6 @@
     font-weight: 500;
     font-size: 40px;
     line-height: 55px;
-
     color: #642F0A;
 }
 .intro-para{
@@ -28,4 +32,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
+}
+.program-grid img{
+    width: 230px;
+    height: 300px;
 }

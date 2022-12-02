@@ -7,82 +7,64 @@ body{
     overflow-x: hidden;
     padding-bottom: 200px;
 }
-.nav-bar{
-    height: 250px;
-}
-.navbar-ellipse{
-    
-    position: absolute;
-    width: 980px;
-    height: 137px;
-    left: 80px;
-    top: 60px;
-    transform: scale(1.6) rotate(-1deg);
-    z-index: -1;
-    overflow: hidden;
-}
+
 .nav-bar-top{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background: #D68A44;
-    color: #FFF9F1;
+    background: #FFF9F1;
+    color: #642F0A;
     padding-top: 20px;
+    padding-right: 80px;
 
 }
-
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    color: #D68A44;
+}
+.logo h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0;
+}
+.logo h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 5px;
+}
 .store{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }    
-.store svg{
-    width: 30px;
-    height: 30px;
-}
 .about-us{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }  
-.about-us svg{
-    width: 30px;
-    height: 30px;
-} 
 .favourites{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }  
-.favourites svg{
-    width: 30px;
-    height: 30px;
-}
-.login-button{
-    border-width: 2px;
-    border-radius: 10px;
-    border: 1px solid #EEEEEE;
-    width: 85px;
-    height: 35px;
-    background-color: transparent;
-    text-align: center;
-    margin-right: 30px;
-    margin-top: 20px;
-    color: white;
+.profile{
+    display: flex;
+    flex-direction: column;
     cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
-.login-button:hover{
-    background-color: #FFF9F1;
-    color: #D68A44;
-    border: 1px solid #D68A44;
-}
-.nav-bar-top h2{
-    padding-left: 30px;
-}
+
 
