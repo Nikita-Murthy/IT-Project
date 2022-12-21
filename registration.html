@@ -12,6 +12,33 @@
     <link rel="stylesheet" href="styles/home-body.css">
     <link rel="stylesheet" href="styles/navbar.css">
     <link rel="stylesheet" href="styles/details-page.css">
+    <script>
+        function validateForm()
+        {  
+            var name=document.getElementById('fname').value;   
+            var age=document.getElementById('age').value;
+            var pass = document.getElementById('pass').value;
+            var email = document.getElementById('email').value;
+            var regEmail = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+            if (name==null || name=="")
+            {  
+                alert("Please enter a name");  
+                return false;
+            }
+            else if(email==null || !regEmail.test(email))
+            {
+                alert("Invalid Email")
+                return false;
+            }
+            else if(pass.length < 8){
+                alert("Password is less than 8 characters")
+                return false;
+            }else if(age<=10 || age >=100){
+                alert("Input Valid Age")
+                return false;
+            }
+        }  
+    </script>
 </head>
 <body>
     <div class="nav-bar">
@@ -32,15 +59,16 @@
             </div>
         </div>
     </div>
-    <form action="index.html" method="post">
+
+    <form name="myform" method="post" onsubmit="return validateForm()" action=''>
         <div class="left">
             <div class="account1">
               <h3 class="account">Create Account</h3>
-              <label class ="names"for="fname"> Full Name</label>
-              <input class ="button"type="text" id="fname" name="name" placeholder="">
+              <label class ="name" for="fname">Name</label>
+              <input class ="button"type="text" id="fname" name="name" placeholder="" required>
             <br>
               <label class ="names"for ="age">Age</label>
-              <input class ="button"type="number" id="age" name="age" placeholder=""><br>
+              <input class ="button"type="number" id="age" name="age" placeholder="" required><br>
               <label class="names"for="gender">Gender</label>
                 <select class="button" name="gender" id="gender">
                     <option value="male">male</option>
@@ -51,11 +79,11 @@
             </br>
             <br>
               <label class="names"for="email">Email</label>
-              <input class="button"type="text" id="email" name="email" placeholder="">
+              <input class="button"type="text" id="email" name="email" placeholder="" required>
             </br>
             <br>
               <label class="names" for="pass"> Password</label>
-              <input class="button" type="password" id="pass" name="pass" placeholder="">   
+              <input class="button" type="password" id="pass" name="pass" placeholder="" required>   
             </br>
             </div>
         </div>
@@ -103,8 +131,7 @@
             </div>
         </div>
         <div class ="vertical"></div>
-        <!-- <input type="submit" value="Save & Next" class="btn"> -->
-        <button class="btn" type="submit" onclick="window.location.href='index.html'">Save & Next</button>
+        <input type="submit" value="Save & Next" class="btn">
     </form>
 </body>
 </html>
