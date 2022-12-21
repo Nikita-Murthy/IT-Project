@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live in the Moment!-Homepage</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Montserrat:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/home-body.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/details-page.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="nav-bar-top">
+            <div class="logo">
+                <h3>Live In</h3>
+                <h2>THE MOMENTS</h2>
+            </div>
+            
+            <div class="store">  
+                <p>Our free app</p>
+            </div>
+            <div class="about-us">
+                <p>About us</p>
+            </div>
+            <div class="profile">   
+                <p>Profile</p>
+            </div>
+        </div>
+    </div>
+    <form action="https://httpbin.org/post" method="post">
+        <div class="left">
+            <div class="account1">
+              <h3 class="account">Create Account</h3>
+              <label class ="names"for="fname"> Full Name</label>
+              <input class ="button"type="text" id="fname" name="name" placeholder="">
+            <br>
+              <label class ="names"for ="age">Age</label>
+              <input class ="button"type="number" id="age" name="age" placeholder="">
+              <label class="names"for="gender">Gender</label>
+                <select class="button" name="gender" id="gender">
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                    <option value="others">others</option>
+                    <option value="non-binary">non-binary</option>
+                </select>
+            </br>
+            <br>
+              <label class="names"for="email">Email</label>
+              <input class="button"type="text" id="email" name="email" placeholder="">
+            </br>
+            <br>
+              <label class="names" for="adr"> Address</label>
+              <input class="button" type="text" id="adr" name="address" placeholder="">   
+            </br>
+            </div>
+        </div>
+        <div class="right">
+            <div class="describe">
+                <h3>Which of these describe you?</h3>
+                <div class="grid-container">
+                    <div>
+                    <input type="radio" name="self" id="self">
+                    <label for="self">self</label>
+                    </div>
+                    <div>
+                    <input type="radio" name="professional" id="professional">
+                    <label for="professional">professional</label>
+                    </div>
+                    <div>
+                    <input type="radio" name="educator" id="educator">
+                    <label for="educator">educator</label>
+                    </div>
+                    <div>
+                    <input type="radio" name="parent" id="parent">
+                    <label for="parent">parent</label>
+                    </div>
+                    <div>
+                    <input type="radio" name="health practitioner " id="health practitioner ">
+                    <label for="health practitioner ">health practitioner </label>
+                    </div>
+                    <div>
+                    <input type="radio" name="other" id="other">
+                    <label for="other">other</label>
+                    </div>
+                </div>
+            </div>
+            <div class="interests">
+                      <h3>What are you interested in?</h3>
+                      <label for="select"></label>
+                      <select class="dropbtn" name="guided meditation" id="guided meditation">
+                      <option value="guided meditation">guided meditation</option>
+                      <option value="mental strength">mental strength</option>
+                      <option value="Sleep schedule">Sleep schedule</option>
+                      <option value="Learn about emotions">Learn about emotions</option>
+                      <option value="Focus">Focus</option>
+                      <option value="others">others</option>
+                      </select>
+            </div>
+        </div>
+        <div class ="vertical"></div>
+        <input type="submit" value="Save & Next" class="btn">
+    </form>
+</body>
+</html>
+

@@ -1,0 +1,27 @@
+.account{
+    color: #642F0A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    align-items: center;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.left{
+    margin-top: 80px;
+    margin-left: 190px;
+}
+.right{
+    width:80%;
+}
+#gender{
+    height: 55px;
+    margin-left: 20px;
+    width: 100px;
+ }
+.account1{
+    margin-left: 25px;
+}

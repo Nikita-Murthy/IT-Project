@@ -1,0 +1,149 @@
+
+.account{
+    color: #642F0A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    align-items: center;
+}
+.describe{
+    color: #642F0A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    align-items: center;
+}
+.describe h3{
+    color: #642F0A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    align-items: center;
+}
+.interests{
+    color: #642F0A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    align-items: center;
+}
+.interests h3{
+    color: #642F0A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    align-items: center;
+}
+.names{
+    font-size: 20px;
+    font-weight: light;
+    color: #000;
+}
+label[for="gender"]{
+    margin-left: 30px;
+}
+.button{
+    background-color: #E3C495;
+    color: rgb(15, 14, 14);
+    border: none;
+    width: 200px;
+    height: 26px;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 15px;
+    font-weight: lighter;
+    margin: 10px 0 10px 50px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+#age{
+    width: 100px;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 15px;
+    font-weight: lighter;
+    margin: 10px 0 10px 112px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+#gender{
+   height: 55px;
+   margin-left: 20px;
+   width: 100px;
+}
+#email{
+    width: 240px;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 15px;
+    font-weight: lighter;
+    margin: 10px 0 10px 94px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+#adr{
+    width: 240px;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 15px;
+    font-weight: lighter;
+    margin: 10px 0 10px 70px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.btn{
+    background-color: #FFF9F1;
+    color: #D68A44;
+    border: solid 1px #D68A44;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 15px;
+    font-weight: lighter;
+    margin: 10px 0;
+    cursor: pointer;
+    position: absolute;
+    left: 46%;
+    bottom : 10%;
+}
+.dropbtn{
+    background-color: #D68A44;
+    color: white;
+    border: solid 1px #D68A44;
+    border-radius: 5px;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    padding: 20px;
+    padding-bottom: 200px;
+    border: 1px solid #FFF9F1;
+    border-radius: 5px;
+    background-color: #FFF9F1;
+    position: relative;
+}
+.right{
+    margin-left: 200px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 10px;
+}
+.vertical {
+    border-left: 1.2px solid black;
+    height: 450px;
+    position:absolute;
+    left: 50%;
+    top: 10%;
+}
+
