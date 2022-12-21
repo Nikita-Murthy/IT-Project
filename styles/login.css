@@ -1,0 +1,70 @@
+.body-container{
+    height: 600px;
+    
+}
+
+.login-card{
+    background-color: #E3C495;
+    height: 300px;
+    color: #642F0A;
+    width: 40%;
+    height: 250px;
+    padding-top: 8%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    
+}
+
+.login-card label{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-left: 20%;
+    margin-bottom: 20px;
+    
+}
+
+.login-card form{
+    width: 100%;
+}   
+
+.login-card input{
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 8px;
+    border: none;
+    width: 50%;
+    height: 30px;
+    margin-left: 20%;  
+}
+.login-card input:focus{
+    outline: none;
+}
+
+.login-card input[type="submit"]{
+    color: white;
+    background-color: #D68A44;
+    width: 25%;
+    height: 45px;
+    margin-left: 38%;
+    cursor: pointer;
+}
+
+.login-card input[type="submit"]:hover{
+    background-color: #642F0A;
+}
+.sign-up-button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    width: 80px;
+    height: 30px;
+    font-size: 13px;
+    margin-top: 13%;
+    background-color: #D68A44;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
