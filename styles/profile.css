@@ -1,9 +1,11 @@
-.account{
+.account1{
     color: #642F0A;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: 400;
     align-items: center;
+    margin-top: -50px;
+    width: 100%;
 }
 .main{
     display: flex;
@@ -11,17 +13,23 @@
     justify-content: space-evenly;
 }
 .left{
-    margin-top: 80px;
-    margin-left: 190px;
+    margin-top: 30px;
+    margin-left: 120px;
 }
 .right{
     width:80%;
+    margin-top: 30px;
 }
 #gender{
     height: 55px;
     margin-left: 20px;
-    width: 100px;
+    width: 160px;
  }
 .account1{
     margin-left: 25px;
+}
+#adr{
+    height: 40px;
+    width: 300px;
+    margin-left: 70px;
 }

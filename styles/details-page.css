@@ -26,6 +26,7 @@
     font-size: 30px;
     font-weight: 300;
     align-items: center;
+    margin-top: 100px;
 }
 .interests h3{
     color: #642F0A;
@@ -40,14 +41,14 @@
     color: #000;
 }
 label[for="gender"]{
-    margin-left: 30px;
+    margin-left: 0;
 }
 .button{
     background-color: #E3C495;
     color: rgb(15, 14, 14);
     border: none;
-    width: 200px;
-    height: 26px;
+    width: 180px;
+    height: 20px;
     border-radius: 5px;
     padding: 15px 20px;
     font-size: 15px;
@@ -68,11 +69,12 @@ label[for="gender"]{
 }
 #gender{
    height: 55px;
-   margin-left: 20px;
-   width: 100px;
+   margin-left: 77px;
+   width: 180px;
+   font-size: 20px;
 }
 #email{
-    width: 240px;
+    width: 180px;
     border-radius: 5px;
     padding: 15px 20px;
     font-size: 15px;
@@ -81,13 +83,13 @@ label[for="gender"]{
     vertical-align: middle;
     cursor: pointer;
 }
-#adr{
-    width: 240px;
+#pass{
+    width: 180px;
     border-radius: 5px;
     padding: 15px 20px;
     font-size: 15px;
     font-weight: lighter;
-    margin: 10px 0 10px 70px;
+    margin: 10px 0 10px 52px;
     vertical-align: middle;
     cursor: pointer;
 }
@@ -102,8 +104,12 @@ label[for="gender"]{
     margin: 10px 0;
     cursor: pointer;
     position: absolute;
-    left: 46%;
-    bottom : 10%;
+    left: 36%;
+    bottom : 0%;
+}
+.btn:hover{
+    background-color: #D68A44;
+    color: #FFF9F1;
 }
 .dropbtn{
     background-color: #D68A44;
@@ -121,17 +127,24 @@ form{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 90%;
-    padding: 20px;
-    padding-bottom: 200px;
-    border: 1px solid #FFF9F1;
+    height: 580px;
+    margin-left: 6%;
+    border: 1px solid #D68A44;
     border-radius: 5px;
     background-color: #FFF9F1;
     position: relative;
 }
 .right{
-    margin-left: 200px;
+    margin-left: 30px;
+    margin-top: -100px;
+    padding-right: 0px;
+    scale: 0.8;
+}
+.left{
+    scale: 0.8;
+    margin-top: -65px;
 }
 .grid-container{
     display: grid;
@@ -143,7 +156,7 @@ form{
     border-left: 1.2px solid black;
     height: 450px;
     position:absolute;
-    left: 50%;
+    left: 40%;
     top: 10%;
 }
 
