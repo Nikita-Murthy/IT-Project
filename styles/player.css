@@ -137,3 +137,22 @@
   i.fa-step-backward {
     cursor: pointer;
   }
+
+  .btn{
+    background-color: #FFF9F1;
+    color: #D68A44;
+    border: solid 1px #D68A44;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 15px;
+    font-weight: lighter;
+    margin: 10px 0;
+    cursor: pointer;
+    position: absolute;
+    left: 42%;
+    bottom : -10%;
+}
+.btn:hover{
+    background-color: #D68A44;
+    color: #FFF9F1;
+}

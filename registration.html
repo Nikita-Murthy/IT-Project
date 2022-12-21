@@ -16,7 +16,7 @@
 <body>
     <div class="nav-bar">
         <div class="nav-bar-top">
-            <div class="logo">
+            <div class="logo" onclick="window.location.href='landing.html'">
                 <h3>Live In</h3>
                 <h2>THE MOMENTS</h2>
             </div>
@@ -24,15 +24,15 @@
             <div class="store">  
                 <p>Our free app</p>
             </div>
-            <div class="about-us">
+            <div class="about-us" onclick="window.location.href='about-us.html'">
                 <p>About us</p>
             </div>
-            <div class="profile">   
+            <div class="profile" onclick="window.location.href='profile.html'">   
                 <p>Profile</p>
             </div>
         </div>
     </div>
-    <form action="https://httpbin.org/post" method="post">
+    <form action="index.html" method="post">
         <div class="left">
             <div class="account1">
               <h3 class="account">Create Account</h3>
@@ -103,7 +103,8 @@
             </div>
         </div>
         <div class ="vertical"></div>
-        <input type="submit" value="Save & Next" class="btn">
+        <!-- <input type="submit" value="Save & Next" class="btn"> -->
+        <button class="btn" type="submit" onclick="window.location.href='index.html'">Save & Next</button>
     </form>
 </body>
 </html>

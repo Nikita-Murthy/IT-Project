@@ -16,7 +16,7 @@
 <body>
     <div class="nav-bar">
         <div class="nav-bar-top">
-            <div class="logo">
+            <div class="logo" onclick="window.location.href='landing.html'">
                 <h3>Live In</h3>
                 <h2>THE MOMENTS</h2>
             </div>
@@ -24,7 +24,7 @@
             <div class="store">  
                 <p>Our free app</p>
             </div>
-            <div class="about-us">
+            <div class="about-us" onclick="window.location.href='about-us.html'">
                 <p>About us</p>
             </div>
             
@@ -44,8 +44,8 @@
     <center><h2>LOGIN DETAILS</h2></center>
     <div class="login-card">
         <form action="login1.php" method="post" name="myform" onsubmit="return validateform()">
-            <label for="username">Username</label> <br>
-            <input type="text" name="username" id="username"> <br><br><br>
+            <label for="email">Email</label> <br>
+            <input type="email" name="email" id="email"> <br><br><br>
             <label for="password">Password</label> <br>
             <input type="password" name="password" id="password"> <br><br><br>
             <input type="submit" value="Login">

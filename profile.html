@@ -18,7 +18,7 @@
     <body>
         <div class="nav-bar">
             <div class="nav-bar-top">
-                <div class="logo">
+                <div class="logo" onclick="window.location.href='landing.html'">
                     <h3>Live In</h3>
                     <h2>THE MOMENTS</h2>
                 </div>
@@ -26,10 +26,10 @@
                 <div class="store">  
                     <p>Our free app</p>
                 </div>
-                <div class="about-us">
+                <div class="about-us" onclick="window.location.href='about-us.html'">
                     <p>About us</p>
                 </div>
-                <div class="profile">   
+                <div class="profile" onclick="window.location.href='profile.html'">   
                     <p>Profile</p>
                 </div>
             </div>
@@ -37,17 +37,17 @@
         <div class="main">
             <div class ="left">
                 <img src="images/Ellipse 1.png" alt="group" style="scale:1.0">
-                <h2><center>Hello Henry!</center></h2> 
+                <h2><center>Hello!</center></h2> 
             </div> 
             <div class="right">
                 <form action="https://httpbin.org/post" method="post">
                         <div class="account1">
                             <h3 class="account">Your profile</h3>
                             <label class ="names"for="fname"> Full Name</label>
-                            <input class ="button"type="text" id="fname" name="name" value="Henry">
+                            <input class ="button"type="text" id="fname" name="name" value="">
                             <br>
                             <label class ="names"for ="age">Age</label>
-                            <input class ="button"type="number" id="age" name="age" value="26">
+                            <input class ="button"type="number" id="age" name="age" value="">
                             <label class="names"for="gender">Gender</label>
                                 <select class="button" name="gender" id="gender">
                                     <option value="male">male</option>
@@ -58,11 +58,11 @@
                             </br>
                             <br>
                             <label class="names"for="email">Email</label>
-                            <input class="button"type="text" id="email" name="email" value="henry@gmail.com">
+                            <input class="button"type="text" id="email" name="email" value="">
                             </br>
                             <br>
                             <label class="names" for="adr"> Address</label>
-                            <input class="button" type="text" id="adr" name="address" value="xyz street,abc city">   
+                            <input class="button" type="text" id="adr" name="address" value="">   
                             </br>
                         </div>
                     <div class ="btn"></div>

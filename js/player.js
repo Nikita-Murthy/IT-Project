@@ -23,13 +23,22 @@ let curr_track = document.createElement("audio");
 // Define the list of tracks that have to be played
 let track_list = [
   {
-    path: "audio\\kinda smelly.mp3",
+    path: "audio\\1.mp3",
   },
   {
-    path: "audio\\crow_Chant_Dick.wav",
+    path: "audio\\2.mp3",
   },
   {
-    path: "audio\\crow_Chant_Hah.wav",
+    path: "audio\\3.mp3",
+  },
+  {
+    path: "audio\\4.mp3",
+  },
+  {
+    path: "audio\\5.mp3",
+  },
+  {
+    path: "audio\\6.mp3",
   },
 ];
 

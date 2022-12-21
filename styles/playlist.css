@@ -4,8 +4,8 @@
 }
 
 .vertical {
-    border-left: 1.2px solid black;
-    height: 550px;
+    border-left: 1.2px solid #642F0A;
+    height: 500px;
     position:absolute;
     left: 50%;
 }
@@ -23,7 +23,7 @@ h3{
 
 .left-content img{
     width: 300px;
-    height: 350px;
+    height: 300px;
     margin-left: 100px;
     padding-top: 45px;
 }
@@ -86,4 +86,26 @@ h3{
 i.fa-play-circle,
 i.fa-pause-circle {
   cursor: pointer;
+}
+
+.right-content a{
+    text-decoration: none;
+    color: #642F0A;
+    font-weight: 450;
+}
+
+.right-content a:link{
+    color: #642F0A;
+}
+
+.right-content a:visited{
+    color: #9c5f33;
+}
+
+.right-content a:hover{
+    color: rgb(59, 105, 77);
+}
+
+.mind p{
+    padding: 2px;
 }

@@ -13,21 +13,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 <body>
-    <div class="nav-bar">
-        <div class="nav-bar-top">
-            <div class="logo">
-                <h3>Live In</h3>
-                <h2>THE MOMENTS</h2>
-            </div>
-            <div class="store">  
-                <p>Our free app</p>
-            </div>
-            <div class="about-us">
-                <p>About us</p>
-            </div>
-            <button class="signup-button">Get Started</button>
+  <div class="nav-bar">
+    <div class="nav-bar-top">
+        <div class="logo" onclick="window.location.href='landing.html'">
+            <h3>Live In</h3>
+            <h2>THE MOMENTS</h2>
         </div>
+        
+        <div class="store">  
+            <p>Our free app</p>
+        </div>
+        <div class="about-us" onclick="window.location.href='about-us.html'">
+            <p>About us</p>
+        </div>
+        <div class="profile" onclick="window.location.href='profile.html'">   
+            <p>Profile</p>
+        </div>
+
     </div>
+
+    
     <div class="player">
         <div class="dad-image">
             <img src="photos (2)\photos\dad-daughter-tapas.svg" alt="" srcset="">
@@ -62,6 +67,7 @@
             value="99" class="volume_slider" onchange="setVolume()">
           <i class="fa fa-volume-up"></i>
         </div>
+        <button class="btn" onclick="window.location.href='playlist.html'">Go back to the playlist</button>
       </div>
      
       <!-- Load the main script for the player -->

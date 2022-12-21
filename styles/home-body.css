@@ -36,4 +36,5 @@
 .program-grid img{
     width: 230px;
     height: 300px;
+    cursor: pointer;
 }
