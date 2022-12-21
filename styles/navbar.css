@@ -44,27 +44,54 @@ body{
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-}    
+}
+.store p::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #642F0A;
+    transition: width .3s;
+}
+.store p:hover::after{
+    width: 100%;
+}
 .about-us{
     display: flex;
     flex-direction: column;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-}  
-.favourites{
-    display: flex;
-    flex-direction: column;
-    cursor: pointer;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-}  
+} 
+.about-us p::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #642F0A;
+    transition: width .3s;
+}
+.about-us p:hover::after{
+    width: 100%;
+}
+
 .profile{
     display: flex;
     flex-direction: column;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+}
+.profile p::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #642F0A;
+    transition: width .5s;
+}
+.profile p:hover::after{
+    width: 100%;
 }
 .signup-button{
     border-width: 2px;

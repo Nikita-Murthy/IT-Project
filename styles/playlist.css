@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.vertical {
+    border-left: 1.2px solid black;
+    height: 550px;
+    position:absolute;
+    left: 50%;
+}
+
+h3{
+    color: #642F0A;
+}
+
+.left-content{
+    position: absolute;
+    padding-left: 100px;
+    justify-content: center;
+    align-content: center;
+}
+
+.left-content img{
+    width: 300px;
+    height: 350px;
+    margin-left: 100px;
+    padding-top: 45px;
+}
+
+.left-content h3{
+    padding-left: 35px;
+}
+
+#text-span{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-content p{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.right-content {
+    position: absolute;
+    padding-left: 700px;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.right-content ul{
+    margin-top: 50px;
+}
+
+.right-content li{
+    list-style: none;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.playpause-track-1,
+.playpause-track-2,
+.playpause-track-3
+{
+  opacity: 0.8;
+  transition: opacity .2s;
+}
+ 
+/* Change the opacity when mouse is hovered */
+.playpause-track-1:hover,
+.playpause-track-2:hover,
+.playpause-track-3:hover
+{
+  opacity: 1.0;
+}
+
+i.fa-play-circle,
+i.fa-pause-circle {
+  cursor: pointer;
+}
